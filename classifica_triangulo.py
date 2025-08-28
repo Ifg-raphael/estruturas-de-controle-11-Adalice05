@@ -9,7 +9,7 @@ if  a < b+c and b < a+c and c < a+b:
         print("equilátero")
     if a==b!=c or a==c!=b or c==b!=a:
         print("isóceles")
-    if a!=b!=c:
+    else:
         print("escaleno")
 else:
     print("Não forma triângulo")
